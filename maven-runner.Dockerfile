@@ -1,7 +1,5 @@
 FROM gh-runner:base
 
-ENV DEBIAN_FRONTEND=noninteractive
-
 RUN apt-get update && apt-get install -y \
     maven \
     && rm -rf /var/lib/apt/lists/*

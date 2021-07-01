@@ -2,7 +2,7 @@
 
 cd ~/actions-runner
 
-./config.sh --url https://github.com/${REPO} --token ${TOKEN}
+./config.sh --url https://github.com/${REPO} --token ${TOKEN} --labels ${LABELS}
 
 cleanup() {
     echo "Removing runner..."
