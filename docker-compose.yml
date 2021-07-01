@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+ runner:
+   image: gh-runner:maven
+   environment:
+     - REPO=<USER>/<REPO>
+     - TOKEN=<TOKEN>
