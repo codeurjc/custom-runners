@@ -16,6 +16,7 @@ Launch 1 runner
   docker run -d \
     --env REPO=<USER>/<REPO> \
     --env TOKEN=<TOKEN> \
+    --env LABELS=<LABEL1,LABEL2> \
     --name maven-runner \
     gh-runner:maven
 ```
